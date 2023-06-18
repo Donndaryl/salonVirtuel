@@ -10,6 +10,8 @@ import { AuthenticationComponent } from './authentication/authentication.compone
 import { ExponentDashboardComponent } from './exponent-dashboard/exponent-dashboard.component';
 import { VisitorDashboardComponent } from './visitor-dashboard/visitor-dashboard.component';
 import { VisitorNavBarComponent } from './visitor-dashboard/visitor-nav-bar/visitor-nav-bar.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { ExponentNavBarComponent } from './exponent-dashboard/exponent-nav-bar/exponent-nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { VisitorNavBarComponent } from './visitor-dashboard/visitor-nav-bar/visi
     AuthenticationComponent,
     ExponentDashboardComponent,
     VisitorDashboardComponent,
-    VisitorNavBarComponent
+    VisitorNavBarComponent,
+    RegistrationComponent,
+    ExponentNavBarComponent
   ],
   imports: [
     BrowserModule,

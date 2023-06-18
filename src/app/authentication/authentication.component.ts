@@ -20,13 +20,18 @@ export class AuthenticationComponent {
   }
 
   connexion(): number{
-    if(this.userEmail != null && this.userPassword != null){
+    if(this.userEmail != '' && this.userPassword != ''){
+      alert(this.lastParam)
       if (this.lastParam == true){
         this.router.navigate(['visitor/'+1], )
       }else{
-        this.router.navigate(['exponent/'+1], )
+        this.router.navigate(['visitor/'+1], )
       }
     }
     return 1;
+  }
+
+  redirectToVisitorReg(): void{
+    this.router.navigate(['visitorReg/'], )
   }
 }

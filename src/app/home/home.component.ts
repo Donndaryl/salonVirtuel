@@ -12,6 +12,6 @@ export class HomeComponent {
 
   userStatus(value: boolean){
     this.isVisitor = value
-    this.router.navigate(['authentication/'+this.isVisitor], { queryParams: { status: this.isVisitor } });
+    this.router.navigate(['authentication/'+this.isVisitor], );
   }
 }
